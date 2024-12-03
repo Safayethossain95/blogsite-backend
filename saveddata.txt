@@ -1,0 +1,834 @@
+{
+  "_id": {
+    "$oid": "66448c2f8e96ff57aff0012d"
+  },
+  "coursename": "Coding for kids",
+  "rating": 4.7,
+  "lessons": 21,
+  "days": "20",
+  "level": 2,
+  "mentorname": "Shahinoor Alam",
+  "coursefee": 1200,
+  "language": "English",
+  "duration": "03 hr 24 mins",
+  "imgurl": "/assets/images/common/courses/1.png",
+  "imgmentor": "/assets/images/common/courses/mentor.png",
+  "bigvideo": "https://drive.google.com/file/d/1hB8TnjyjsqWgtBr2dpkkIZaot_ac_I1C/preview",
+  "totalratings": 30,
+  "enrolled": 902,
+  "iscertificate": true,
+  "description": "Welcome to \"Coding for Kids\" at iLearn, an innovative and engaging course designed to introduce children aged 7 to 14 years to the exciting world of coding. This course aims to build a strong foundation in programming, foster problem-solving skills, and ignite a passion for technology through age-appropriate lessons and hands-on activities. Our program is carefully structured into age-specific modules to ensure that each child receives a personalized educational experience that matches their developmental stage. By integrating fun and interactive lessons, students will embark on a journey to understand the basics of coding and develop skills that are essential in the digital age.",
+  "certificate": "/assets/images/coursedetailspage/certificate.png",
+  "prerequisites": [
+    {
+      "item": "Internet Connection (WIFI or Mobile internet)",
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff0012e"
+      }
+    },
+    {
+      "item": "Smartphone of Computer",
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff0012f"
+      }
+    },
+    {
+      "item": "Complete A Level",
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff00130"
+      }
+    }
+  ],
+  "coursecontent": [
+    {
+      "headerleft": "1. Introduction",
+      "headerright": "3 Videos · 25 min",
+      "body": [
+        {
+          "title": "Welcome to Coding for Kids",
+          "duration": "5:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff00132"
+          }
+        },
+        {
+          "title": "What is Coding?",
+          "duration": "5:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff00133"
+          }
+        },
+        {
+          "title": "Tools We Will Use",
+          "duration": "15:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66497a5b219d36fff18b5743"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff00131"
+      }
+    },
+    {
+      "headerleft": "2. Basic Concepts",
+      "headerright": "4 Videos · 40 min",
+      "body": [
+        {
+          "title": "Understanding Algorithms",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff00135"
+          }
+        },
+        {
+          "title": "Introduction to Variables",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff00136"
+          }
+        },
+        {
+          "title": "Loops and Iterations",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66497a5b219d36fff18b5748"
+          }
+        },
+        {
+          "title": "Conditionals and Logic",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66497a5b219d36fff18b5749"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff00134"
+      }
+    },
+    {
+      "headerleft": "3. Building Your First Program",
+      "headerright": "2 Videos · 20 min",
+      "body": [
+        {
+          "title": "Setting Up the Environment",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff00138"
+          }
+        },
+        {
+          "title": "Writing Your First Code",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff00139"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff00137"
+      }
+    },
+    {
+      "headerleft": "4. Introduction to Scratch",
+      "headerright": "3 Videos · 30 min",
+      "body": [
+        {
+          "title": "What is Scratch?",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff0013b"
+          }
+        },
+        {
+          "title": "Creating Your First Scratch Project",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff0013c"
+          }
+        },
+        {
+          "title": "Exploring Scratch Features",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66498055219d36fff18b5d30"
+          }
+        },
+        {
+          "title": "",
+          "duration": "",
+          "video": "",
+          "_id": {
+            "$oid": "66498055219d36fff18b5d31"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff0013a"
+      }
+    },
+    {
+      "headerleft": "5. Intermediate Scratch Projects",
+      "headerright": "4 Videos · 40 min",
+      "body": [
+        {
+          "title": "Making Animations",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff0013e"
+          }
+        },
+        {
+          "title": "Creating Interactive Stories",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff0013f"
+          }
+        },
+        {
+          "title": "Building Simple Games",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66498055219d36fff18b5d35"
+          }
+        },
+        {
+          "title": "Using Sensors and Extensions",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66498055219d36fff18b5d36"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff0013d"
+      }
+    },
+    {
+      "headerleft": "6. Introduction to Python",
+      "headerright": "5 Videos · 50 min",
+      "body": [
+        {
+          "title": "What is Python?",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66498055219d36fff18b5d38"
+          }
+        },
+        {
+          "title": "Setting Up Python",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66498055219d36fff18b5d39"
+          }
+        },
+        {
+          "title": "Writing Python Code",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66498055219d36fff18b5d3a"
+          }
+        },
+        {
+          "title": "Running Python Programs",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66498055219d36fff18b5d3b"
+          }
+        },
+        {
+          "title": "Python Projects for Kids",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66498055219d36fff18b5d3c"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66498055219d36fff18b5d37"
+      }
+    }
+  ],
+  "instructors": [
+    {
+      "insname": "Javed Karim",
+      "insposition": "Assistant Professor",
+      "insstudy": "Department of Arabic, University of Dhaka, Former Welfare Assistant, High Commission of Bangladesh, Brunei Darussalam",
+      "insimg": "/assets/images/coursedetailspage/instructors/1.png",
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff00140"
+      }
+    },
+    {
+      "insname": "Raisa Chowdhury",
+      "insposition": "Assistant Professor",
+      "insstudy": "MSc (English), University of Oxford (UK) BA, MA (English), University of Dhaka IELTS: 8.5",
+      "insimg": "/assets/images/coursedetailspage/instructors/2.png",
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff00141"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "img": "/assets/images/coursedetailspage/reviews/quote.png",
+      "comment": "I have been absolutely blown away by the quality of the course offered by this learning site. The instructors are incredibly knowledgeable and engaging, and the curriculum is comprehensive and well-structured.",
+      "propic": "/assets/images/coursedetailspage/reviews/reviewer1.png",
+      "rname": "Faysal Ahmed",
+      "occupation": "Doctor",
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff00142"
+      }
+    },
+    {
+      "img": "/assets/images/coursedetailspage/reviews/quote.png",
+      "comment": "The \"Coding for Kids\" course at iLearn is fantastic! It engages children aged 7-14 with age-appropriate, hands-on coding lessons. My child loved the interactive projects, learned valuable programming skills, and gained confidence. Highly recommended for building a strong foundation in coding and problem-solving. A must-try for young tech enthusiasts!",
+      "propic": "/assets/images/coursedetailspage/reviews/reviewer1.png",
+      "rname": "Farhan Ahmed",
+      "occupation": "Lawyer",
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff00143"
+      }
+    }
+  ],
+  "studyPlan": [
+    {
+      "head": "Introduction to Coding Concepts",
+      "list": [
+        {
+          "name": "What is programming?",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff00145"
+          }
+        },
+        {
+          "name": "Basic concepts: sequences, loops, conditionals.",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff00146"
+          }
+        },
+        {
+          "name": "Introduction to algorithms and problem-solving.",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff00147"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff00144"
+      }
+    },
+    {
+      "head": "Starting of Scratch Programming",
+      "list": [
+        {
+          "name": "Understanding Scratch interface.",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff00149"
+          }
+        },
+        {
+          "name": "Creating sprites and backgrounds.",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff0014a"
+          }
+        },
+        {
+          "name": "Using blocks to create animations and interactive projects.",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff0014b"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff00148"
+      }
+    },
+    {
+      "head": "Introduction to Python Programming",
+      "list": [
+        {
+          "name": "Python Definition",
+          "_id": {
+            "$oid": "66498ad7219d36fff18b6221"
+          }
+        },
+        {
+          "name": "Setting it up",
+          "_id": {
+            "$oid": "66498ad7219d36fff18b6222"
+          }
+        },
+        {
+          "name": "debugging Python programs",
+          "_id": {
+            "$oid": "66498ad7219d36fff18b6223"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66498ad7219d36fff18b6220"
+      }
+    },
+    {
+      "head": "Projects on Python",
+      "list": [
+        {
+          "name": "simple Python programs",
+          "_id": {
+            "$oid": "66498ad7219d36fff18b6225"
+          }
+        },
+        {
+          "name": "interactive applications",
+          "_id": {
+            "$oid": "66498ad7219d36fff18b6226"
+          }
+        },
+        {
+          "name": "Exploring Python libraries",
+          "_id": {
+            "$oid": "66498ad7219d36fff18b6227"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66498ad7219d36fff18b6224"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "head": "What is the age range for the Coding for Kids course?",
+      "list": [
+        {
+          "name": "The course is designed for children aged 7-14.",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff0014d"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff0014c"
+      }
+    },
+    {
+      "head": "Do I need any prior coding knowledge to enroll my child in this course?",
+      "list": [
+        {
+          "name": "No prior coding knowledge is required.",
+          "_id": {
+            "$oid": "66448c2f8e96ff57aff0014f"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66448c2f8e96ff57aff0014e"
+      }
+    },
+    {
+      "head": "How long does the course take to complete?",
+      "list": [
+        {
+          "name": "The course is self-paced, but it typically takes about 8-10 weeks to complete, depending on the child’s pace and time commitment.",
+          "_id": {
+            "$oid": "6648721435eebaacf5d4b1f9"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6648721435eebaacf5d4b1f8"
+      }
+    },
+    {
+      "head": "What programming languages will my child learn?",
+      "list": [
+        {
+          "name": "Your child will learn Scratch and Python, two of the most popular languages for beginners.",
+          "_id": {
+            "$oid": "664995cc219d36fff18b660c"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "664995cc219d36fff18b660b"
+      }
+    },
+    {
+      "head": "What kind of projects will my child work on during the course?",
+      "list": [
+        {
+          "name": "Projects include creating animations, interactive stories, simple games, and basic Python programs.",
+          "_id": {
+            "$oid": "664995cc219d36fff18b660e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "664995cc219d36fff18b660d"
+      }
+    },
+    {
+      "head": "Is there any homework or assignments outside of the course videos?",
+      "list": [
+        {
+          "name": "While there are no mandatory assignments, there are optional projects and exercises to reinforce learning.",
+          "_id": {
+            "$oid": "664995cc219d36fff18b6610"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "664995cc219d36fff18b660f"
+      }
+    }
+  ],
+  "coursefeebangla": "১২০০",
+  "__v": 0,
+  "studyPlanFeature": [
+    {
+      "text": "Interactive Learninig",
+      "icon": "/assets/images/coursedetailspage/feat/problem.png",
+      "_id": {
+        "$oid": "665195cc2041b58e3c24a7a4"
+      }
+    },
+    {
+      "text": "21 Recorded Videos",
+      "icon": "/assets/images/coursedetailspage/feat/recorded.png",
+      "_id": {
+        "$oid": "665195cc2041b58e3c24a7a5"
+      }
+    },
+    {
+      "text": "5 Hands-On Projects",
+      "icon": "/assets/images/coursedetailspage/feat/projects.png",
+      "_id": {
+        "$oid": "6651ad953e592b98d94da29f"
+      }
+    },
+    {
+      "text": "Valuable Certificate",
+      "icon": "/assets/images/coursedetailspage/feat/certificate.png",
+      "_id": {
+        "$oid": "6651ae1d3e592b98d94da925"
+      }
+    },
+    {
+      "text": "Great Community",
+      "icon": "/assets/images/coursedetailspage/feat/community.png",
+      "_id": {
+        "$oid": "6651b6333e592b98d94ddbc0"
+      }
+    },
+    {
+      "text": "Lifetime Access",
+      "icon": "/assets/images/coursedetailspage/feat/lifetime.png",
+      "_id": {
+        "$oid": "6651bca83e592b98d94de5d4"
+      }
+    }
+  ],
+  "branch": "Banashree"
+}
+
+
+
+//////////////////////////////////////////////////////////////////
+
+
+{
+  "_id": {
+    "$oid": "66482896cf4f579af91c57a4"
+  },
+  "coursename": "Introduction to A.I Tools",
+  "rating": 4.5,
+  "lessons": 6,
+  "days": "2",
+  "level": 1,
+  "mentorname": "Rebuti Mohon",
+  "coursefee": 1400,
+  "language": "English",
+  "duration": "1 hr 15 min",
+  "imgurl": "/assets/images/common/courses/2.png",
+  "imgmentor": "/assets/images/common/courses/mentor.png",
+  "bigvideo": "https://www.youtube.com/embed/DF2NtJcgQCo?si=Iu2BsHi50OZ12bbn",
+  "totalratings": 32,
+  "enrolled": 770,
+  "iscertificate": true,
+  "description": "The Introduction to A.I Tools By BSS course is designed to introduce students to the fundamental concepts and applications of artificial intelligence. Through a series of interactive lessons and practical exercises, students will explore various AI tools and technologies, understand their use cases, and learn how to implement them in real-world scenarios.",
+  "certificate": "/assets/images/coursedetailspage/certificate.png",
+  "prerequisites": [
+    {
+      "item": "Internet Connection (WIFI or Mobile internet)",
+      "_id": {
+        "$oid": "66499df7219d36fff18b7ee7"
+      }
+    },
+    {
+      "item": "Smartphone of Computer",
+      "_id": {
+        "$oid": "66499df7219d36fff18b7ee8"
+      }
+    },
+    {
+      "item": "Basic understanding of programming concepts",
+      "_id": {
+        "$oid": "66499df7219d36fff18b7ee9"
+      }
+    }
+  ],
+  "coursecontent": [
+    {
+      "headerleft": "1. Introduction",
+      "headerright": "2 Videos · 15 min",
+      "body": [
+        {
+          "title": "Overview of AI",
+          "duration": "5:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66482896cf4f579af91c57a9"
+          }
+        },
+        {
+          "title": "History of AI",
+          "duration": "10:00",
+          "video": "https://www.youtube.com/embed/WPj65l6QRO8?si=uCwZ08KUiSNQaaxu",
+          "_id": {
+            "$oid": "66482896cf4f579af91c57aa"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66482896cf4f579af91c57a8"
+      }
+    },
+    {
+      "headerleft": "2. AI Tools",
+      "headerright": "3 Videos · 60 min",
+      "body": [
+        {
+          "title": "Introduction to AI Tools",
+          "duration": "15:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66482896cf4f579af91c57ac"
+          }
+        },
+        {
+          "title": "Use of ChatGPT in everyday life",
+          "duration": "15:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66482896cf4f579af91c57ad"
+          }
+        },
+        {
+          "title": "Natural Language Processing Tools",
+          "duration": "15:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66499df7219d36fff18b7ef0"
+          }
+        },
+        {
+          "title": "Machine Learning Tools",
+          "duration": "15:00",
+          "video": "https://www.youtube.com/embed/asChI35pWcw?si=_PoScwmcEY2uuU5V",
+          "_id": {
+            "$oid": "66499df7219d36fff18b7ef1"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66482896cf4f579af91c57ab"
+      }
+    }
+  ],
+  "instructors": [
+    {
+      "insname": "Javed Karim",
+      "insposition": "AI Specialist",
+      "insstudy": "Department of Computer Science, University of Dhaka",
+      "insimg": "/assets/images/coursedetailspage/instructors/1.png",
+      "_id": {
+        "$oid": "66482896cf4f579af91c57ae"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "img": "/assets/images/coursedetailspage/reviews/quote.png",
+      "comment": "This AI course is fantastic! The instructor explains complex concepts clearly, and the hands-on exercises are very helpful.",
+      "propic": "/assets/images/coursedetailspage/reviews/reviewer1.png",
+      "rname": "Samira Rahman",
+      "occupation": "Software Developer",
+      "_id": {
+        "$oid": "66482896cf4f579af91c57b0"
+      }
+    },
+    {
+      "img": "/assets/images/coursedetailspage/reviews/quote.png",
+      "comment": "I have been absolutely blown away by the quality of the course offered by this learning site. The instructors are incredibly knowledgeable and engaging, and the curriculum is comprehensive and well-structured",
+      "propic": "/assets/images/coursedetailspage/reviews/reviewer1.png",
+      "rname": "Ahmed Khan",
+      "occupation": "Data Scientist",
+      "_id": {
+        "$oid": "66482896cf4f579af91c57b1"
+      }
+    }
+  ],
+  "studyPlan": [
+    {
+      "head": "Introduction to AI Concepts",
+      "list": [
+        {
+          "name": "Overview of AI",
+          "_id": {
+            "$oid": "66482896cf4f579af91c57b3"
+          }
+        },
+        {
+          "name": "History of AI",
+          "_id": {
+            "$oid": "66482896cf4f579af91c57b4"
+          }
+        },
+        {
+          "name": "Applications of AI",
+          "_id": {
+            "$oid": "66482896cf4f579af91c57b5"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66482896cf4f579af91c57b2"
+      }
+    },
+    {
+      "head": "Exploring AI Tools",
+      "list": [
+        {
+          "name": "Introduction to AI Tools",
+          "_id": {
+            "$oid": "66499df7219d36fff18b7efa"
+          }
+        },
+        {
+          "name": "Machine Learning Tools",
+          "_id": {
+            "$oid": "66499df7219d36fff18b7efb"
+          }
+        },
+        {
+          "name": "Natural Language Processing Tool",
+          "_id": {
+            "$oid": "66499df7219d36fff18b7efc"
+          }
+        },
+        {
+          "name": "",
+          "_id": {
+            "$oid": "66499df7219d36fff18b7efd"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66499df7219d36fff18b7ef9"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "head": "What will I learn in this course?",
+      "list": [
+        {
+          "name": "You will learn to use various AI tools and understand their applications in real-world scenarios.",
+          "_id": {
+            "$oid": "66482896cf4f579af91c57b7"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66482896cf4f579af91c57b6"
+      }
+    },
+    {
+      "head": "What is the prerequisite knowledge for this course?",
+      "list": [
+        {
+          "name": "Basic understanding of programming concepts is required.",
+          "_id": {
+            "$oid": "66482896cf4f579af91c57b9"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66482896cf4f579af91c57b8"
+      }
+    },
+    {
+      "head": "",
+      "list": [
+        {
+          "name": "",
+          "_id": {
+            "$oid": "66499df7219d36fff18b7f03"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66499df7219d36fff18b7f02"
+      }
+    }
+  ],
+  "coursefeebangla": "১৪০০",
+  "__v": 0,
+  "studyPlanFeature": [
+    {
+      "text": "Interactive Learning",
+      "icon": "/assets/images/coursedetailspage/feat/problem.png",
+      "_id": {
+        "$oid": "6651aebc3e592b98d94dae73"
+      }
+    },
+    {
+      "text": "6 Recorded Videos",
+      "icon": "/assets/images/coursedetailspage/feat/recorded.png",
+      "_id": {
+        "$oid": "6651afc93e592b98d94daea6"
+      }
+    },
+    {
+      "text": "Valuable Certificate",
+      "icon": "/assets/images/coursedetailspage/feat/certificate.png",
+      "_id": {
+        "$oid": "6651b0363e592b98d94db40e"
+      }
+    }
+  ],
+  "branch": "Wari"
+}
