@@ -1,30 +1,26 @@
+// models/PartnerBrand.js
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-// Define the User schema
-const contactSchema = new Schema({
-
-  name:{
+const teamsSchema = new Schema({
+  name: {
     type: String,
     required: true,
   },
-  subject:{
+  title: {
     type: String,
     required: true,
   },
-  email: {
+  description: {
     type: String,
     required: true,
   },
-  message:{
+  image: {
     type: String,
     required: true,
   },
 
 });
 
-
-// Create the User model
-const ContactUs = mongoose.model('Contactus', contactSchema);
-
-module.exports = ContactUs;
+const TeamsModel = mongoose.model('Teams', teamsSchema);
+module.exports = TeamsModel;

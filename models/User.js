@@ -13,40 +13,7 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
-  firstname: {
-    type: String,
-    required: true,
-  },
-  lastname: {
-    type: String,
-    required: true,
-  },
-  phonenumber:{
-    type:String,
-    required:true
-  },
-  gender: {
-    type: String,
-    required: true,
-  },
-  dob: {
-    type: String,
-    required: true,
-  },
-  student: {
-    type: Boolean,
-    required: true,
-  },
-  uniqueId: { type: String, required: true, unique: true },
-  signup:{
-    type:String,
-    required:false,
-    default:"false"
-  },
-  branch:{
-    type:String,
-    required:true
-  }
+  uniqueId: { type: String, required: true, unique: true }
 });
 
 // Mongoose middleware to hash the password before saving

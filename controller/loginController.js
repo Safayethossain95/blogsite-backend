@@ -1,7 +1,7 @@
 const bcrypt = require("bcryptjs"); // Assuming you're using bcrypt for password hashing
 const jwt = require("jsonwebtoken"); // Assuming you use JWT for token generation
 const User = require("../models/User.js");
-
+const { v4: uuidv4 } = require('uuid'); 
 const loginController = async (req, res) => {
   const { email, password } = req.body;
 
@@ -21,7 +21,7 @@ const loginController = async (req, res) => {
         .status(400)
         .json({ message: "Invalid email or password", navigate: "/login" });
     }
-    if (user.signup == "true") {
+    if (isMatch) {
       // Generate a token (assuming you are using JWT)
       const token = jwt.sign({ userId: user._id }, "12ef", {
         expiresIn: "1h",
@@ -36,12 +36,11 @@ const loginController = async (req, res) => {
       res.status(200).json({
         success: true,
         message: "Login successful",
-        navigate: "/",
+        token:token
       });
     } else {
       res.status(200).json({
         message: "Not a Verified User",
-        navigate: "",
       });
     }
   } catch (error) {
@@ -81,21 +80,39 @@ const getlogoutController = async (req, res) => {
   res.status(200).json({ success: true, data: "Logged out" });
 };
 
-const checkProtectedLogin = async (req, res) => {
-  const token = req.cookies.jwtToken;
+const signUpController = async (req, res) => {
+  try {
+    const { email, password } = req.body;  // Extract email and password from request body
+    const uniqueId = uuidv4();             // Generate a unique ID for the new user
 
-if (!token) {
-  return res.json({ authenticated: false, message: "No token provided" });
-}
+    // Create a new user instance
+    const newUser = new User({
+      email,
+      password,
+      uniqueId
+    });
 
-jwt.verify(token, "12ef", (err, decoded) => {
-  if (err) {
-    return res.json({ authenticated: false, message: "Failed to authenticate token" });
+    // Save the new user to the database
+    await newUser.save();
+
+    // Respond with success message and user data (excluding sensitive info like password)
+    res.status(201).json({
+      success: true,
+      message: 'User created successfully!',
+      user: {
+        email: newUser.email,
+        uniqueId: newUser.uniqueId
+      }
+    });
+  } catch (error) {
+    // Handle any errors that occur during user creation
+    console.error('Error creating user:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error creating user',
+      error: error.message  // Send error details for debugging (consider removing in production)
+    });
   }
-
-  // Token is valid
-  return res.json({ authenticated: true, user: decoded });
-});
 };
 
 // const checkProtectedLogin = async (req,res) =>{
@@ -118,5 +135,5 @@ module.exports = {
   loginController,
   getloginController,
   getlogoutController,
-  checkProtectedLogin,
+  signUpController
 };
