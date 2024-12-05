@@ -21,7 +21,7 @@ const contactuspostCotnroller = async (req, res) => {
         from: '"BlogMe" <safayet.hossain95@gmail.com>', // sender address
         to: 'safayet.hossain95@gmail.com', // list of receivers
         subject: "Regstration Successful", // Subject line
-        text: "BlogMe registration", // plain text body
+        text: "BlogMe contact", // plain text body
         html: ` 
     <html>
       <body style="font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 0; padding: 0;">
@@ -49,8 +49,42 @@ const contactuspostCotnroller = async (req, res) => {
         .json({ message: "Failed to send message", error: error.message });
     }
   }
+  async function main2() {
+    console.log(email, "email");
+    try {
+      // send mail with defined transport object
+      const info = await transporter.sendMail({
+        from: '"BlogMe" <safayet.hossain95@gmail.com>', // sender address
+        to: email, // list of receivers
+        subject: "BlogMe response", // Subject line
+        text: "BlogMe contact", // plain text body
+        html: ` 
+    <html>
+      <body style="font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 0; padding: 0;">
+        <div style="max-width: 600px; margin: 20px auto; background-color: #ffffff; border: 1px solid #ddd; padding: 20px; border-radius: 5px;">
+          <h2 style="color: #333333; text-align: center;">New Message</h2>
+          <div style="border-top: 2px solid #4CAF50; margin-bottom: 20px;"></div>
+          <p style="margin: 10px 0; font-size: 16px;"><strong style="color: #4CAF50;">Name:</strong> We have received you email. we will get back to you soon.</p>
+        </div>
+      </body>
+    </html>
+  ` });
+
+      console.log("Message sent: %s", info.messageId); // Log message ID
+      return res.json({
+        message: "Message sent and sign up complete",
+        messageId: info.messageId,
+      });
+    } catch (error) {
+      console.error("Error sending email: ", error);
+      return res
+        .status(500)
+        .json({ message: "Failed to send message", error: error.message });
+    }
+  }
   try {
     main();
+    main2()
   } catch (err) {
     console.error("Error sending email: ", err);
     return res

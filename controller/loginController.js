@@ -89,26 +89,11 @@ const signUpController = async (req, res) => {
     res.status(500).json({
       success: false,
       message: 'Error creating user',
-      error: error.message  // Send error details for debugging (consider removing in production)
+      error: error.message  
     });
   }
 };
 
-// const checkProtectedLogin = async (req,res) =>{
-//   const token = req.cookies.jwtToken;
-
-//   if (!token) {
-//       return res.status(401).json({message:'Access Denied'});
-//   }
-
-//   try {
-//       const verified = jwt.verify(token, '12ef');
-//       req.user = verified;
-//       res.status(200).json({success:true,data:"verified",tk:token});
-//   } catch (err) {
-//       res.status(400).json({message:'Invalid Token'});
-//   }
-// }
 
 module.exports = {
   loginController,

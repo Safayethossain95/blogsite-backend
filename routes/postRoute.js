@@ -28,6 +28,7 @@ const {
     servicesUpdateController,
     servicesDeleteController,
 } = require("../controller/commonControlers/servicesController");
+const { subscribeEmailController } = require("../controller/subscribeEmailController");
 
 post_route.use(bodyParser.json());
 post_route.use(bodyParser.urlencoded({ extended: true }));
@@ -62,5 +63,10 @@ post_route.get("/logout", getlogoutController);
 // signup
 
 post_route.post("/signup", signUpController);
+
+// subscribe
+
+post_route.post("/subscribe", subscribeEmailController);
+
 
 module.exports = post_route;
