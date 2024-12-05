@@ -13,24 +13,10 @@ const cors = require('cors')
 
 
 app.use(cors({
-    // origin:`https://i-learn-seven.vercel.app`,
-    origin:`http://localhost:5173`,
+    origin:`https://blogsite-ten-ecru.vercel.app/`,
     credentials: true
 }));
 
-
-
-// mongoose.connect('mongodb://127.0.0.1:27017/ilearn_backend')
-
-   
-
-// mongoose.connect('mongodb+srv://mern:mern@cluster0.ujhuxyr.mongodb.net/ilearn_backend?retryWrites=true&w=majority&appName=Cluster0')
-// .then(async ()=>{
-//     console.log('Database Connected')
-// })
-// .catch((err)=>{
-//     console.log(err)
-// })
 
 require('dotenv').config();
 
