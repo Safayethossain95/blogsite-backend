@@ -23,9 +23,7 @@ const teamsGetController = async (req, res) => {
   try {
     const teams = await TeamsModel.find();
     
-    if (!teams.length) {
-      return res.status(404).json({ message: "No teams found" });
-    }
+   
     
     res.status(200).json({ data: teams });
   } catch (err) {

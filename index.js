@@ -39,9 +39,9 @@ const password = process.env.DB_PASSWORD;
 const cluster = process.env.DB_CLUSTER;
 const dbname = process.env.DB_NAME;
 
-// const uri = `mongodb+srv://${username}:${password}@${cluster}/${dbname}?retryWrites=true&w=majority&appName=Cluster0`;
+const uri = `mongodb+srv://${username}:${password}@${cluster}/${dbname}?retryWrites=true&w=majority&appName=Cluster0`;
 
-const uri = 'mongodb://127.0.0.1:27017/blogsite_backend';
+// const uri = 'mongodb://127.0.0.1:27017/blogsite_backend';
 
 const connectDB = async () => {
   try {

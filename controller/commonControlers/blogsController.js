@@ -20,9 +20,7 @@ const blogsgetCotnroller = async (req, res) => {
   try {    
     const blogs = await BlogsModel.find();
     
-    if (!blogs.length) {
-      return res.status(404).json({ message: "No blogs found" });
-    }
+    
     
     res.status(200).json({ data: blogs });
   } catch (err) {    

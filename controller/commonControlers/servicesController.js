@@ -2,10 +2,10 @@ const ServicesModel = require("../../models/ServicesModel"); // Adjust the path 
 
 // Create a new service entry
 const servicesPostController = async (req, res) => {
-  const { title, description, icon, color } = req.body;
+  const { title, description } = req.body;
 
   try {
-    const newService = new ServicesModel({ title, description, icon, color });
+    const newService = new ServicesModel({ title, description});
     const savedService = await newService.save();
     res.status(201).json({ data: savedService });
   } catch (err) {
@@ -18,9 +18,7 @@ const servicesGetController = async (req, res) => {
   try {
     const services = await ServicesModel.find();
 
-    if (!services.length) {
-      return res.status(404).json({ message: "No services found" });
-    }
+    
 
     res.status(200).json({ data: services });
   } catch (err) {
@@ -31,12 +29,12 @@ const servicesGetController = async (req, res) => {
 // Update a service entry by ID
 const servicesUpdateController = async (req, res) => {
   const { id } = req.params;
-  const { title, description, icon, color } = req.body;
+  const { title, description } = req.body;
 
   try {
     const updatedService = await ServicesModel.findByIdAndUpdate(
       id,
-      { title, description, icon, color },
+      { title, description },
       { new: true, runValidators: true }
     );
 

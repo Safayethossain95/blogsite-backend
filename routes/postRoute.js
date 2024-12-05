@@ -14,6 +14,7 @@ const {
 const {
   loginController,
   signUpController,
+  getlogoutController,
 } = require("../controller/loginController");
 const {
   teamsPostController,
@@ -56,6 +57,7 @@ post_route.delete("/servicesdelete/:id", servicesDeleteController);
 // Login
 
 post_route.post("/login", loginController);
+post_route.get("/logout", getlogoutController);
 
 // signup
 

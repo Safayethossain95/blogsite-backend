@@ -35,8 +35,7 @@ const loginController = async (req, res) => {
       });
       res.status(200).json({
         success: true,
-        message: "Login successful",
-        token:token
+        message: "Login successful"
       });
     } else {
       res.status(200).json({
@@ -48,27 +47,7 @@ const loginController = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
-const getloginController = async (req, res) => {
-  const { email } = req.body;
 
-  try {
-    // Check if the user exists
-    const user = await User.findOne({ email });
-
-    if (!user) {
-      return res.status(400).json({ message: "Invalid email or password" });
-    }
-    // Send the token and a success message
-    res.status(200).json({
-      success: true,
-      message: "User Found",
-      data: user,
-    });
-  } catch (error) {
-    console.error("Error logging in:", error);
-    res.status(500).json({ message: "Server error" });
-  }
-};
 
 const getlogoutController = async (req, res) => {
   res.cookie("jwtToken", "", {
@@ -133,7 +112,6 @@ const signUpController = async (req, res) => {
 
 module.exports = {
   loginController,
-  getloginController,
   getlogoutController,
   signUpController
 };
