@@ -13,7 +13,7 @@ const cors = require('cors')
 
 
 app.use(cors({
-    origin:`https://blogsite-ten-ecru.vercel.app/`,
+    origin:`https://blogsite-ten-ecru.vercel.app`,
     credentials: true
 }));
 
